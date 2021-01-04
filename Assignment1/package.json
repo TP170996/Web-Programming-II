@@ -1,0 +1,18 @@
+{
+  "name": "prabhu-tejashree-cs554-lab1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "node ./tasks/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tejashree Prabhu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.1",
+    "node-uuid": "^1.4.8"
+  }
+}

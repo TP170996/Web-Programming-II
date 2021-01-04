@@ -1,0 +1,78 @@
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+@import "node_modules/bootstrap/scss/_modal";
+@import "node_modules/bootstrap/scss/_card";
+
+
+
+body,
+html {
+  background: $body-background;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: $primary-font-size;
+}
+.title{
+  color:#ffffff;
+  background-color: black;
+}
+.card{
+  padding-bottom: 5%;
+}
+.card-text{
+  height:20%px;
+  font-size: small;
+}
+.col{
+  padding: 5%;
+}
+
+.btn-primary {
+  background-color: $button-background;
+  color: $button-text;
+  border-color: $body-background;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: $button-background;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+.sidebar a {
+  display: block;
+  color: #ffffff;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+.sidebar a.active {
+  background-color: $body-background;
+  color: #ffffff;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: $text-colour;
+  color: #ffffff;
+}
+
+div.content {
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+    display: inline-block;
+  
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "cs554-assignment-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Tejashree Prabhu 10450404",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "ioredis": "^4.19.2",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2"
+  }
+}

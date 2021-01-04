@@ -1,0 +1,22 @@
+/*-----Author:Tejashree Prabhu----References:CS546 Lecture 6 Codebase, CS546 Lecture 10 Codebase, cs554 lecture 11 codebase,stackoverflow-----*/
+{
+    "compilerOptions": {
+      "target": "es6",
+    
+      "module": "commonjs",
+   
+      "outDir": "dist",
+   
+      "resolveJsonModule": true
+ 
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.json"
+      
+    ],
+    "exclude": [
+      "node_modules"
+     
+    ]
+  }

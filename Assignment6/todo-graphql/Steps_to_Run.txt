@@ -1,0 +1,9 @@
+start redis server
+
+=>root directory
+yarn install
+yarn start
+
+=>cd client
+yarn install
+yarn start
